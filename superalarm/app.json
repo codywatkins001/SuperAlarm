@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SuperAlarm",
+    "slug": "superalarm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.superalarm"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a1a"
+      }
+    },
+    "sdkVersion": "54.0.0",
+    "plugins": [
+      "expo-audio"
+    ]
+  }
+}
